@@ -7,7 +7,7 @@ const Home = () => {
       {/* Banner */}
       <div className="position-relative overflow-hidden">
         <div className="d-block d-md-none w-100 of-hidden height-200">
-          <img src="/assets/banner/banner-vet-3.webp" className="w-100 h-100"
+          <img src="public/assets/banner/banner-vet-3.webp" className="w-100 h-100"
             style={{objectFit: "cover", objectPosition: "right"}} alt="Banner veterinaria" />
         </div>
         <img src="/assets/banner/banner-vet-3.webp" className="img-fluid w-100 d-none d-md-block"
