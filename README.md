@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://dyl-veterinaria-6xvc.vercel.app/LogoDyl.png" alt="Logo DYL Veterinaria" width="150" />
+  <img src="./LogoDyl.png" alt="Logo DYL Veterinaria" width="150" />
 </p>
 
 
@@ -43,78 +43,76 @@ Construido con **React** y **Bootstrap** para un diseño responsivo y funcional.
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/tu-usuario/dyl-veterinaria.git
-    Entra a la carpeta del proyecto:
+    git clone https://github.com/tu-usuario/dyl-veterinaria.git # Reemplaza con tu usuario
+    cd dyl-veterinaria
     ```
+2. Instala las dependencias:
+    ```bash
+    npm install
+    # o si usas yarn:
+    # yarn install
+    ```
+3. Ejecuta la app en modo desarrollo:
+    ```bash
+    npm start
+    # o si usas yarn:
+    # yarn start
+    ```
+4. Abre `http://localhost:3000` en tu navegador para ver la aplicación.
 
-bash
-Copiar
-Editar
-cd dyl-veterinaria
-Instala las dependencias:
+---
 
-bash
-Copiar
-Editar
-npm install
+## 📦 Estructura del proyecto
 
-# o con yarn
+```
+dyl-veterinaria/
+├── public/
+│   ├── index.html
+│   ├── sitemap.xml
+│   └── favicon.ico
+├── src/
+│   ├── components/      # Componentes reutilizables de React
+│   ├── pages/           # Páginas principales de la aplicación
+│   ├── App.js           # Componente raíz
+│   └── index.js         # Punto de entrada de React
+└── README.md
+```
 
-yarn install
-Ejecuta la app en modo desarrollo:
+---
 
-bash
-Copiar
-Editar
-npm start
+## 🖌️ Uso de Bootstrap
 
-# o con yarn
-
-yarn start
-Abre en el navegador:
-http://localhost:3000
-
-📦 Estructura del proyecto
-bash
-Copiar
-Editar
-/public
-├── index.html
-├── sitemap.xml
-└── favicon.ico
-/src
-├── components/ # Componentes reutilizables React
-├── pages/ # Páginas principales
-├── App.js # Componente raíz
-├── index.js # Entrada principal React
-└── styles/ # Archivos CSS/Bootstrap personalizados
-🖌️ Uso de Bootstrap
-Bootstrap se integra importando en el archivo principal CSS o JS, por ejemplo:
-
-js
-Copiar
-Editar
+Bootstrap se integra importando sus estilos directamente en `src/index.js` o `src/App.js`:
+```javascript
 import 'bootstrap/dist/css/bootstrap.min.css';
-Se usan clases de Bootstrap para layouts, botones, formularios y otros componentes.
+```
+Se utilizan las clases de Bootstrap (`className="container"`, `className="btn btn-primary"`, etc.) directamente en los componentes de React para aplicar los estilos.
 
-📈 SEO y sitemap
-Sitemap generado y accesible en:
+---
 
-bash
-Copiar
-Editar
-https://dyl-veterinaria-6xvc.vercel.app/sitemap.xml
-Asegura mejor indexación y visibilidad en motores de búsqueda.
+## 📈 SEO y sitemap
 
-☁️ Despliegue
+Se ha generado un `sitemap.xml` y está disponible en la raíz del sitio desplegado para ayudar a los motores de búsqueda a indexar el contenido de manera eficiente. Puedes verlo en:
+`https://dyl-veterinaria-6xvc.vercel.app/sitemap.xml`
+
+---
+
+## ☁️ Despliegue
+
 El proyecto está desplegado en Vercel.
 
 Deploy automático mediante push a rama principal (main/master).
 
+---
+
 🤝 Contribuciones
+
 Se aceptan Pull Requests para mejoras y correcciones.
 
 Abre un issue para sugerencias o reportar bugs.
 
+---
+
 📄 Licencia
-MIT License © 2025 DYL Veterinaria
+
+MIT License © 2024 DYL Veterinaria
