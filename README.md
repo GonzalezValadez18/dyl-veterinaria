@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./LogoDyl.png" alt="Logo DYL Veterinaria" width="150" />
+  <img src="./LogoDyl.png" alt="Logo DYL Veterinaria" width="250" />
 </p>
 
 
