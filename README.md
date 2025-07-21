@@ -64,7 +64,7 @@ Construido con **React** y **Bootstrap** para un diseño responsivo y funcional.
 
 ## 📦 Estructura del proyecto
 
-```
+```plaintext
 dyl-veterinaria/
 ├── public/
 │   ├── index.html
@@ -78,7 +78,6 @@ dyl-veterinaria/
 └── README.md
 ```
 
----
 
 ## 🖌️ Uso de Bootstrap
 
