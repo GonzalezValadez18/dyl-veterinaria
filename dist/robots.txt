@@ -1,2 +1,3 @@
 User-agent: *
-Disallow:
+Allow: /
+Sitemap: https://gonzalezvaladez18.github.io/dyl-veterinaria/sitemap.xml
