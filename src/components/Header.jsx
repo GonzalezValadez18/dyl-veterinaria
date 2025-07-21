@@ -35,7 +35,7 @@ const Header = () => {
                 <div className="container-fluid">
                     <Link className="navbar-brand me-5" to="/">
                         <img
-                            src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/logo/logo-main.svg"
+                            src="/assets/logo/logo-main.svg"
                             alt="Logo Veterinaria DYL"
                             width="120"
                             height="auto"
