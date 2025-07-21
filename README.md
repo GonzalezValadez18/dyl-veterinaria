@@ -1,66 +1,120 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="https://dyl-veterinaria-6xvc.vercel.app/LogoDyl.png" alt="Logo DYL Veterinaria" width="150" />
 </p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+# 📄 README - DYL Veterinaria
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🐾 Proyecto: DYL Veterinaria
 
-## Learning Laravel
+Sitio web desarrollado para brindar información y servicios relacionados con veterinaria.  
+Construido con **React** y **Bootstrap** para un diseño responsivo y funcional.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 🚀 Tecnologías usadas
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+-   **React** — Biblioteca JavaScript para construir interfaces de usuario.
+-   **Bootstrap** — Framework CSS para estilos responsivos y componentes UI.
+-   **Vercel** — Plataforma para desplegar la aplicación con hosting rápido y escalable.
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## 🎯 Características principales
 
-### Premium Partners
+-   Diseño responsivo para dispositivos móviles y escritorio.
+-   Navegación intuitiva con React Router (si aplica).
+-   Componentes estilizados usando Bootstrap para rapidez y consistencia visual.
+-   Sitemap.xml generado y disponible para SEO y motores de búsqueda.
+-   Fácil ampliación y mantenimiento gracias a estructura modular React.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+---
 
-## Contributing
+## 🛠️ Instalación y configuración local
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Prerrequisitos
 
-## Code of Conduct
+-   Node.js (v14+ recomendada)
+-   npm o yarn
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Pasos para ejecutar localmente
 
-## Security Vulnerabilities
+1. Clona el repositorio:
+    ```bash
+    git clone https://github.com/tu-usuario/dyl-veterinaria.git
+    Entra a la carpeta del proyecto:
+    ```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+bash
+Copiar
+Editar
+cd dyl-veterinaria
+Instala las dependencias:
 
-## License
+bash
+Copiar
+Editar
+npm install
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# o con yarn
+
+yarn install
+Ejecuta la app en modo desarrollo:
+
+bash
+Copiar
+Editar
+npm start
+
+# o con yarn
+
+yarn start
+Abre en el navegador:
+http://localhost:3000
+
+📦 Estructura del proyecto
+bash
+Copiar
+Editar
+/public
+├── index.html
+├── sitemap.xml
+└── favicon.ico
+/src
+├── components/ # Componentes reutilizables React
+├── pages/ # Páginas principales
+├── App.js # Componente raíz
+├── index.js # Entrada principal React
+└── styles/ # Archivos CSS/Bootstrap personalizados
+🖌️ Uso de Bootstrap
+Bootstrap se integra importando en el archivo principal CSS o JS, por ejemplo:
+
+js
+Copiar
+Editar
+import 'bootstrap/dist/css/bootstrap.min.css';
+Se usan clases de Bootstrap para layouts, botones, formularios y otros componentes.
+
+📈 SEO y sitemap
+Sitemap generado y accesible en:
+
+bash
+Copiar
+Editar
+https://dyl-veterinaria-6xvc.vercel.app/sitemap.xml
+Asegura mejor indexación y visibilidad en motores de búsqueda.
+
+☁️ Despliegue
+El proyecto está desplegado en Vercel.
+
+Deploy automático mediante push a rama principal (main/master).
+
+🤝 Contribuciones
+Se aceptan Pull Requests para mejoras y correcciones.
+
+Abre un issue para sugerencias o reportar bugs.
+
+📄 Licencia
+MIT License © 2025 DYL Veterinaria
