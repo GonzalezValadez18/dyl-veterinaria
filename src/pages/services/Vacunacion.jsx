@@ -11,14 +11,14 @@ const Vacunacion = () => {
           <div className="position-relative overflow-hidden">
               <div className="d-block d-md-none w-100 of-hidden height-200">
                   <img
-                      src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/banner/banner-vac.webp"
+                      src="/assets/banner/banner-vac.webp"
                       className="w-100 h-100"
                       style={{ objectFit: "cover", objectPosition: "center" }}
                       alt="Banner veterinaria"
                   />
               </div>
               <img
-                  src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/banner/banner-vac.webp"
+                  src="/assets/banner/banner-vac.webp"
                   className="img-fluid w-100 d-none d-md-block"
                   alt="Banner horarios veterinaria"
               />
@@ -61,7 +61,7 @@ const Vacunacion = () => {
               <div className="row container col-12 m-auto mt-5 d-flex justify-content-center gap-5">
                   <div className="card" style={{ width: "18rem" }}>
                       <img
-                          src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/servicios/vacunacion-1.webp"
+                          src="/assets/servicios/vacunacion-1.webp"
                           className="card-img-top rounded-circle"
                           alt="Vacuna prevencion"
                       />
@@ -74,7 +74,7 @@ const Vacunacion = () => {
                   </div>
                   <div className="card" style={{ width: "18rem" }}>
                       <img
-                          src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/servicios/vacunacion-2.webp"
+                          src="/assets/servicios/vacunacion-2.webp"
                           className="card-img-top rounded-circle"
                           alt="Vacuna estilo de vida"
                       />
@@ -86,7 +86,7 @@ const Vacunacion = () => {
                   </div>
                   <div className="card" style={{ width: "18rem" }}>
                       <img
-                          src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/servicios/vacunacion-3.webp"
+                          src="/assets/servicios/vacunacion-3.webp"
                           className="card-img-top rounded-circle"
                           alt="Vacuna socializacion"
                       />

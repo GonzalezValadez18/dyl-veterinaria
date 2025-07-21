@@ -11,14 +11,14 @@ const Consulta = () => {
           <div className="position-relative overflow-hidden">
               <div className="d-block d-md-none w-100 of-hidden height-200">
                   <img
-                      src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/banner/banner-consulta.webp"
+                      src="/assets/banner/banner-consulta.webp"
                       className="w-100 h-100"
                       style={{ objectFit: "cover", objectPosition: "center" }}
                       alt="Banner consulta veterinaria"
                   />
               </div>
               <img
-                  src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/banner/banner-consulta.webp"
+                  src="/assets/banner/banner-consulta.webp"
                   className="img-fluid w-100 d-none d-md-block"
                   alt="Banner consulta veterinaria"
               />
@@ -36,7 +36,7 @@ const Consulta = () => {
               <div className="row flex-column flex-md-row align-items-center">
                   <div className="col-12 col-md-6 d-flex justify-content-center justify-content-md-end mb-4 mb-md-0">
                       <img
-                          src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/servicios/consulta.webp"
+                          src="/assets/servicios/consulta.webp"
                           className="rounded-circle w-75 w-md-50"
                           alt="Consulta veterinaria"
                       />

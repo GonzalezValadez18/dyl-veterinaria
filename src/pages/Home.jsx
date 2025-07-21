@@ -8,14 +8,14 @@ const Home = () => {
           <div className="position-relative overflow-hidden">
               <div className="d-block d-md-none w-100 of-hidden height-200">
                   <img
-                      src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/banner/banner-vet-3.webp"
+                      src="/assets/banner/banner-vet-3.webp"
                       className="w-100 h-100"
                       style={{ objectFit: "cover", objectPosition: "right" }}
                       alt="Banner veterinaria"
                   />
               </div>
               <img
-                  src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/banner/banner-vet-3.webp"
+                  src="/assets/banner/banner-vet-3.webp"
                   className="img-fluid w-100 d-none d-md-block"
                   alt="Banner veterinaria"
               />
@@ -37,7 +37,7 @@ const Home = () => {
               <div className="row flex-column flex-md-row align-items-center">
                   <div className="col-12 col-md-6 d-flex justify-content-center justify-content-md-end mb-4 mb-md-0">
                       <img
-                          src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/secciones/about-me.webp"
+                          src="/assets/secciones/about-me.webp"
                           className="rounded-circle w-75 w-md-50"
                           alt="Descripción de la foto"
                       />
@@ -64,7 +64,7 @@ const Home = () => {
           <div className="row container col-12 m-auto mt-5 d-flex justify-content-center gap-5">
               <div className="card" style={{ width: "18rem" }}>
                   <img
-                      src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/secciones/services-vacunacion.webp"
+                      src="/assets/secciones/services-vacunacion.webp"
                       className="card-img-top rounded-circle"
                       alt="..."
                   />
@@ -81,7 +81,7 @@ const Home = () => {
               </div>
               <div className="card" style={{ width: "18rem" }}>
                   <img
-                      src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/secciones/services-desparacitacion.webp"
+                      src="/assets/secciones/services-desparacitacion.webp"
                       className="card-img-top rounded-circle"
                       alt="..."
                   />
@@ -101,7 +101,7 @@ const Home = () => {
               </div>
               <div className="card" style={{ width: "18rem" }}>
                   <img
-                      src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/secciones/services-estetica.webp"
+                      src="/assets/secciones/services-estetica.webp"
                       className="card-img-top rounded-circle"
                       alt="..."
                   />
@@ -119,7 +119,7 @@ const Home = () => {
               </div>
               <div className="card" style={{ width: "18rem" }}>
                   <img
-                      src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/secciones/services-consulta.webp"
+                      src="/assets/secciones/services-consulta.webp"
                       className="card-img-top rounded-circle"
                       alt="..."
                   />
@@ -296,37 +296,37 @@ const Home = () => {
                       {/* Primer grupo de imágenes */}
                       <div className="carousel-item-img">
                           <img
-                              src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/testimonios/testimonio-1.webp"
+                              src="/assets/testimonios/testimonio-1.webp"
                               alt="1"
                           />
                       </div>
                       <div className="carousel-item-img">
                           <img
-                              src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/testimonios/testimonio-2.webp"
+                              src="/assets/testimonios/testimonio-2.webp"
                               alt="2"
                           />
                       </div>
                       <div className="carousel-item-img">
                           <img
-                              src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/testimonios/testimonio-3.webp"
+                              src="/assets/testimonios/testimonio-3.webp"
                               alt="3"
                           />
                       </div>
                       <div className="carousel-item-img">
                           <img
-                              src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/testimonios/testimonio-4.webp"
+                              src="/assets/testimonios/testimonio-4.webp"
                               alt="4"
                           />
                       </div>
                       <div className="carousel-item-img">
                           <img
-                              src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/testimonios/testimonio-5.webp"
+                              src="/assets/testimonios/testimonio-5.webp"
                               alt="5"
                           />
                       </div>
                       <div className="carousel-item-img">
                           <img
-                              src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/testimonios/testimonio-6.webp"
+                              src="/assets/testimonios/testimonio-6.webp"
                               alt="6"
                           />
                       </div>
@@ -334,37 +334,37 @@ const Home = () => {
                       {/* Duplicado para bucle infinito */}
                       <div className="carousel-item-img">
                           <img
-                              src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/testimonios/testimonio-1.webp"
+                              src="/assets/testimonios/testimonio-1.webp"
                               alt="1"
                           />
                       </div>
                       <div className="carousel-item-img">
                           <img
-                              src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/testimonios/testimonio-2.webp"
+                              src="/assets/testimonios/testimonio-2.webp"
                               alt="2"
                           />
                       </div>
                       <div className="carousel-item-img">
                           <img
-                              src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/testimonios/testimonio-3.webp"
+                              src="/assets/testimonios/testimonio-3.webp"
                               alt="3"
                           />
                       </div>
                       <div className="carousel-item-img">
                           <img
-                              src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/testimonios/testimonio-4.webp"
+                              src="/assets/testimonios/testimonio-4.webp"
                               alt="4"
                           />
                       </div>
                       <div className="carousel-item-img">
                           <img
-                              src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/testimonios/testimonio-5.webp"
+                              src="/assets/testimonios/testimonio-5.webp"
                               alt="5"
                           />
                       </div>
                       <div className="carousel-item-img">
                           <img
-                              src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/testimonios/testimonio-6.webp"
+                              src="/assets/testimonios/testimonio-6.webp"
                               alt="6"
                           />
                       </div>
@@ -376,14 +376,14 @@ const Home = () => {
           <div className="position-relative overflow-hidden mt-5">
               <div className="d-block d-md-none w-100 of-hidden height-200">
                   <img
-                      src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/banner/banner-horary.webp"
+                      src="/assets/banner/banner-horary.webp"
                       className="w-100 h-100"
                       style={{ objectFit: "cover", objectPosition: "right" }}
                       alt="Banner veterinaria"
                   />
               </div>
               <img
-                  src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/banner/banner-horary.webp"
+                  src="/assets/banner/banner-horary.webp"
                   className="img-fluid w-100 d-none d-md-block"
                   alt="Banner horarios veterinaria"
               />

@@ -11,14 +11,14 @@ const Desparasitacion = () => {
           <div className="position-relative overflow-hidden">
               <div className="d-block d-md-none w-100 of-hidden height-200">
                   <img
-                      src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/banner/banner-desparacitacion.png"
+                      src="/assets/banner/banner-desparacitacion.png"
                       className="w-100 h-100"
                       style={{ objectFit: "cover", objectPosition: "center" }}
                       alt="Banner desparasitacion veterinaria"
                   />
               </div>
               <img
-                  src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/banner/banner-desparacitacion.png"
+                  src="/assets/banner/banner-desparacitacion.png"
                   className="img-fluid w-100 d-none d-md-block"
                   alt="Banner desparasitacion veterinaria"
               />
@@ -36,7 +36,7 @@ const Desparasitacion = () => {
               <div className="row flex-column flex-md-row align-items-center">
                   <div className="col-12 col-md-6 d-flex justify-content-center justify-content-md-end mb-4 mb-md-0">
                       <img
-                          src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/servicios/desparasitacion-1.webp"
+                          src="/assets/servicios/desparasitacion-1.webp"
                           className="rounded-circle w-75 w-md-50"
                           alt="Descripción de la foto"
                       />
@@ -101,7 +101,7 @@ const Desparasitacion = () => {
               <div className="row flex-column flex-md-row align-items-center">
                   <div className="col-12 col-md-6 d-flex justify-content-center justify-content-md-end mb-4 mb-md-0">
                       <img
-                          src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/servicios/desparasitacion-2.webp"
+                          src="/assets/servicios/desparasitacion-2.webp"
                           className="w-75 w-md-50"
                           alt="Descripción de la foto"
                       />

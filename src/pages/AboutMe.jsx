@@ -42,7 +42,7 @@ const AboutMe = () => {
                 {/* Image Section */}
                 <div className="col-12 col-md-6 d-flex justify-content-center mb-4 mb-md-0">
                     <img
-                        src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/secciones/about-me.webp"
+                        src="/assets/secciones/about-me.webp"
                         alt="Veterinaria Ingrid"
                         className="rounded-circle w-75 w-md-75 shadow"
                         style={{ objectFit: "cover", maxHeight: "400px" }}

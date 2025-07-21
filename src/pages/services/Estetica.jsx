@@ -11,14 +11,14 @@ const Estetica = () => {
           <div className="position-relative overflow-hidden">
               <div className="d-block d-md-none w-100 of-hidden height-200">
                   <img
-                      src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/banner/banner-estetica.jpg"
+                      src="/assets/banner/banner-estetica.jpg"
                       className="w-100 h-100"
                       style={{ objectFit: "cover", objectPosition: "center" }}
                       alt="Banner veterinaria"
                   />
               </div>
               <img
-                  src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/banner/banner-estetica.jpg"
+                  src="/assets/banner/banner-estetica.jpg"
                   className="img-fluid w-100 d-none d-md-block"
                   alt="Banner horarios veterinaria"
               />
@@ -45,7 +45,7 @@ const Estetica = () => {
                   <div className="row flex-column flex-md-row align-items-center">
                       <div className="col-12 col-md-6 d-flex justify-content-center justify-content-md-end mb-4 mb-md-0">
                           <img
-                              src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/servicios/estetica-1.webp"
+                              src="/assets/servicios/estetica-1.webp"
                               className="rounded-circle w-75 w-md-50"
                               alt="Descripción de la foto"
                           />
@@ -92,7 +92,7 @@ const Estetica = () => {
                       <div className="accordion-item">
                           <div className="text-center pt-3">
                               <img
-                                  src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/servicios/estetica-2.webp"
+                                  src="/assets/servicios/estetica-2.webp"
                                   style={{
                                       width: "150px",
                                       height: "150px",
@@ -148,7 +148,7 @@ const Estetica = () => {
                       <div className="accordion-item">
                           <div className="text-center pt-3">
                               <img
-                                  src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/servicios/estetica-3.webp"
+                                  src="/assets/servicios/estetica-3.webp"
                                   style={{
                                       width: "150px",
                                       height: "150px",
@@ -201,7 +201,7 @@ const Estetica = () => {
                       <div className="accordion-item">
                           <div className="text-center pt-3">
                               <img
-                                  src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/servicios/estetica-4.webp"
+                                  src="/assets/servicios/estetica-4.webp"
                                   style={{
                                       width: "150px",
                                       height: "150px",
@@ -257,7 +257,7 @@ const Estetica = () => {
                   style={{ width: "20rem" }}
               >
                   <img
-                      src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/servicios/estetica-2.webp"
+                      src="/assets/servicios/estetica-2.webp"
                       className="card-img-top  img-uniforme"
                       alt="Imagen del servicio"
                   />
@@ -288,7 +288,7 @@ const Estetica = () => {
                   style={{ width: "20rem" }}
               >
                   <img
-                      src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/servicios/estetica-3.webp"
+                      src="/assets/servicios/estetica-3.webp"
                       className="card-img-top  img-uniforme"
                       alt="Imagen del servicio"
                   />
@@ -317,7 +317,7 @@ const Estetica = () => {
                   style={{ width: "20rem" }}
               >
                   <img
-                      src="https://gonzalezvaladez18.github.io/dyl-veterinaria/assets/servicios/estetica-4.webp"
+                      src="/assets/servicios/estetica-4.webp"
                       className="card-img-top  img-uniforme"
                       alt="Imagen del servicio"
                   />
