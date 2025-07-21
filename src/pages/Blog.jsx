@@ -60,7 +60,7 @@ const Blog = () => {
                 setLoading(false);
             })
             .catch((err) => {
-                console.error("Error al cargar entradas del blog:", err);
+                console.error("Error al cargar entradas del blog: ;(", err);
                 setError("No se pudieron cargar las entradas del blog.");
                 setLoading(false);
             });
