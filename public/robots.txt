@@ -1,3 +1,2 @@
 User-agent: *
-Allow: /
-Sitemap: https://dyl-veterinaria-6xvc.vercel.app/sitemap.xml
+Disallow: /
